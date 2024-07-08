@@ -30,7 +30,7 @@ public class ContactTriggerHandler {
                 insert usersToCreate;
             } catch (DmlException e) {
                 //handle exceptions
-                System.debug('Error creating users: " + e.getMessage()):
+                System.debug('Error creating users: ' + e.getMessage());
             }
         }
     }
